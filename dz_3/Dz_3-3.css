@@ -1,0 +1,17 @@
+ body {
+     
+    font-family: sans-serif;
+    line-height: 1.5;
+        }
+h1, h2 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+        }
+p {
+    text-indent: 40pt;
+        }
+span {
+    font-size: 18pt;
+    font-style: italic;
+}
