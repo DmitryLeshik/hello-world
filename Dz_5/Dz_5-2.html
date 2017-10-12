@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+        .clip {
+           
+            background-clip:padding-box;
+            border:  10px dotted #900;
+            height: 100px;
+            background-color: aqua;
+            background-repeat:repeat;
+            background-image:url(pic1.png);
+            padding: 3%;
+                                                
+        }
+        .clip1 {
+           
+            background-clip:content-box;
+            border:  10px dotted #900;
+            height: 100px;
+            background-color: aqua;
+            background-repeat:repeat;
+            background-image:url(pic1.png);
+            padding: 3%;
+                                                
+        }
+        .origin {
+            background-origin:border-box;
+            margin-top: 20px;
+            border:  10px dotted #900;
+            height: 100px;
+            background-color:forestgreen;
+            background-repeat: repeat;
+            background-image:url(pic1.png);
+            padding: 3%;
+                             
+        }
+        .origin1 {
+            background-origin:content-box;
+            border:  10px dotted #900;
+            height: 100px;
+            background-color:forestgreen;
+            background-repeat: repeat;
+            background-image:url(pic1.png);
+            padding: 3%;
+                             
+        }
+    </style>
+</head>
+
+<body>
+	<div class="clip"> Свойство background-clip  определяет, какую область элемента  заполняет фон. При изменении значений не изменяется положение фонового рисунка (происходит обрезка). </div>
+	<div class="clip1"> Свойство background-clip  определяет, какую область элемента  заполняет фон. При изменении значений не изменяется положение фонового рисунка (происходит обрезка). </div>
+	<div class="origin"> Свойство background-origin определяет область позиционирования фонового рисунка. При изменении значений меняется положение начальной точки (верхний левый угол) рисунка.</div>
+	<div class="origin1"> Свойство background-origin определяет область позиционирования фонового рисунка. При изменении значений меняется положение начальной точки (верхний левый угол) рисунка.</div>
+</body>
+</html>
