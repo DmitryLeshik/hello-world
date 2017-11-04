@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.container {
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+[ class*="col-"] {
+    float: left;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+.col-1 {
+    width: 8.3333333%;
+}
+
+.col-2 {
+    width: 16.6666666;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+col-5 {
+    width: 41.666667%;
+}
+
+col-6 {
+    width: 50%;
+}
+
+col-7 {
+    width: 58.333333%;
+}
+
+col-8 {
+    width: 66.6666667%;
+}
+
+col-9 {
+    width: 75%;
+}
+
+col-10 {
+    width: 83.333333%;
+}
+
+col-11 {
+    width: 91.6666667%;
+}
+
+col-12 {
+    width: 100%;
+}
+
+
+.block {
+    display: block;
+    height: 350px;
+    text-decoration: none;
+
+}
+
+.thumbnail {
+    height: 300px;
+    background-image: url(min.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-data {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-data:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+    bottom: 0;
+}
+
+.title {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.intro-text {}
+
+.block-footer {
+    height: 40px;
+    line-height: 35px;
+    padding-top: 5px;
+}
+
+.block-footer p {
+    margin: 0;
+    float: left;
+    vertical-align: middle;
+    padding: 0 3px;
+    margin-right: 10px;
+
+}
+
+.view {
+    background-color: #ccc;
+    border-radius: 3px;
+
+}
+
+
+.date-craete {
+    color: #999;
+}
