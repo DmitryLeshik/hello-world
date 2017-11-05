@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #button {
+            background-color: aquamarine;
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #button:hover {
+            cursor: pointer;
+        }
+
+        #form {
+            position: fixed;
+            opacity: 0;
+            transform: scale(0.2);
+            transition: all 0.6s;
+            visibility: hidden;
+            background-color: aquamarine;
+            width: 350px;
+            left: 0;
+            right: 0;
+            margin: 50px auto;
+
+        }
+
+        #form.called {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="button" onclick="called();">Button</div>
+    <script>
+        function called() {
+            document.getElementById('form').classList.toggle('called');
+        }
+    </script>
+    <div id="form">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia at adipisci veritatis nobis blanditiis molestiae aliquam tempore facere dolorum numquam repellendus cum excepturi asperiores eaque cumque quae nostrum, vitae voluptatum.</p>
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quod optio inventore ipsum voluptatibus omnis nulla earum deleniti reprehenderit amet voluptatem, quibusdam ea ab a repellat magnam libero sequi eos?
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi molestias, officiis numquam praesentium mollitia quidem quam eos delectus labore et quibusdam ipsam dolor ipsum optio error beatae animi quod ipsa.</div>
+        <div>Nobis facilis fuga fugiat aliquam impedit perspiciatis asperiores perferendis dolor alias odio veritatis praesentium iure rerum facere, expedita harum itaque rem et deserunt dolorem tempora saepe atque. Aliquam, doloribus, accusantium?</div>
+        <div>Ducimus nulla maxime nihil perspiciatis ut optio nisi totam laboriosam sapiente magnam. Fugiat tempore inventore consectetur distinctio assumenda blanditiis in, ipsa, magnam aspernatur accusamus commodi deleniti molestiae, aut autem placeat.</div>
+        <div>Exercitationem sequi architecto, amet magni natus dolorum temporibus possimus facilis doloremque corporis sapiente sunt dolore velit, perferendis doloribus minus, rerum ratione accusantium molestiae et quos illo repellat. Consequatur, alias, vero!</div>
+        <div>Accusantium tempore repellat distinctio dolor voluptatum laudantium, ipsam autem explicabo consequuntur error quidem deserunt modi quia odio tempora sapiente ducimus sit blanditiis! Praesentium magni odit voluptatibus sunt fugiat, laudantium pariatur.</div>
+    </div>
+
+</body>
+</html>

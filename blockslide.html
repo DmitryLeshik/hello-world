@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .block {
+            border:10px solid red;
+            background-color: aliceblue;
+            height: 250px;
+            width: 300px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            
+
+        }
+
+        .slide {
+            background-color: aliceblue;
+            height: 250px;
+            width: 300px;
+            position: absolute;
+            left: 300px;
+            top: 0;
+            margin: 0 auto;
+            opacity: 0;
+            transition: all 1s;
+                    }
+        .block:hover .slide{
+            opacity: 1;
+            transform: translateX(-300px);
+            transition: all 1s;
+            
+            
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dicta quas corporis obcaecati voluptates assumenda odio error in? Repudiandae error tenetur delectus commodi, itaque ea quos aperiam. Nobis molestias, quidem. lorem
+<div class="slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto laborum laboriosam doloremque aut aperiam nobis alias at explicabo, doloribus quibusdam atque repellendus? Eos ipsum unde voluptate reprehenderit odit itaque maiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic enim consequatur delectus earum, alias blanditiis, non sit molestias quis iure ipsam libero tenetur deleniti. Delectus perferendis rem veniam, ipsam voluptate!</div>
+    </div>
+    
+</body>
+</html>
